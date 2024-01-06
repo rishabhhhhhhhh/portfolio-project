@@ -15,7 +15,9 @@ const DownloadButton = () => {
 
   return (
     <div className={"flex flex-col items-center m-2"}>
-      <a ref={linkRef} style={{ display: "none" }} />
+      <a ref={linkRef} href="/#" style={{ display: "none" }}>
+        {" "}
+      </a>
       <button
         className={
           "group w-fit text-white flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 px-4 py-4 rounded-md"
