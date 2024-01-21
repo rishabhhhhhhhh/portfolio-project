@@ -16,17 +16,6 @@ const SocialProfiles = () => {
       style: "hover:rounded-tr-md",
     },
     {
-      id: 2,
-      child: (
-        <>
-          Github
-          <FaGithub size={30} />
-        </>
-      ),
-      href: "https://github.com/rishabhhhhhhhh",
-      style: "",
-    },
-    {
       id: 3,
       child: (
         <>
